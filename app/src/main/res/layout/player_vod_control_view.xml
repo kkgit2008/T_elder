@@ -341,7 +341,7 @@
                 android:visibility="gone"
                 android:text="横竖屏"
                 android:textColor="@android:color/white"
-                android:textSize="@dimen/ts_20" android:visibility="gone" />
+                android:textSize="@dimen/ts_20" />
 
         </LinearLayout>
 
