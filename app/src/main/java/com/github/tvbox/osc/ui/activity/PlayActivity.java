@@ -243,10 +243,10 @@ public class PlayActivity extends BaseActivity {
         mVideoView.setVideoController(mController);
     }
 
-    //设置字幕
+    //设置字x幕
     void setSubtitle(String path) {
         if (path != null && path .length() > 0) {
-            // 设置字幕
+            // 设置字x幕
             mController.mSubtitleView.setVisibility(View.GONE);
             mController.mSubtitleView.setSubtitlePath(path);
             mController.mSubtitleView.setVisibility(View.VISIBLE);
@@ -291,7 +291,7 @@ public class PlayActivity extends BaseActivity {
                             public void run() {
                                 String zimuUrl = subtitle.getUrl();
                                 LOG.i("Remote Subtitle Url: " + zimuUrl);
-                                setSubtitle(zimuUrl);//设置字幕
+                                setSubtitle(zimuUrl);//设置字x幕
                                 if (searchSubtitleDialog != null) {
                                     searchSubtitleDialog.dismiss();
                                 }
@@ -317,7 +317,7 @@ public class PlayActivity extends BaseActivity {
                             @Override
                             public void onChoosePath(String path, File pathFile) {
                                 LOG.i("Local Subtitle Path: " + path);
-                                setSubtitle(path);//设置字幕
+                                setSubtitle(path);//设置字x幕
                             }
                         })
                         .build()
@@ -345,13 +345,13 @@ public class PlayActivity extends BaseActivity {
             trackInfo = ((IjkMediaPlayer)mediaPlayer).getTrackInfo();
         }
         if (trackInfo == null) {
-            Toast.makeText(mContext, "没有音轨", Toast.LENGTH_SHORT).show();
+            Toast.makeText(mContext, "没有音x轨", Toast.LENGTH_SHORT).show();
             return;
         }
         List<TrackInfoBean> bean = trackInfo.getAudio();
         if (bean.size() < 1) return;
         SelectDialog<TrackInfoBean> dialog = new SelectDialog<>(PlayActivity.this);
-        dialog.setTip("切换音轨");
+        dialog.setTip("切换音x轨");
         dialog.setAdapter(new SelectDialogAdapter.SelectDialogInterface<TrackInfoBean>() {
             @Override
             public void click(TrackInfoBean value, int pos) {
@@ -373,7 +373,7 @@ public class PlayActivity extends BaseActivity {
                     }, 800);
                     dialog.dismiss();
                 } catch (Exception e) {
-                    LOG.e("切换音轨出错");
+                    LOG.e("切换音x轨出错");
                 }
             }
 
@@ -408,13 +408,13 @@ public class PlayActivity extends BaseActivity {
             trackInfo = ((IjkMediaPlayer)mediaPlayer).getTrackInfo();
         }
         if (trackInfo == null) {
-            Toast.makeText(mContext, "没有内置字幕", Toast.LENGTH_SHORT).show();
+            Toast.makeText(mContext, "没有内置字x幕", Toast.LENGTH_SHORT).show();
             return;
         }
         List<TrackInfoBean> bean = trackInfo.getSubtitle();
         if (bean.size() < 1) return;
         SelectDialog<TrackInfoBean> dialog = new SelectDialog<>(PlayActivity.this);
-        dialog.setTip("切换内置字幕");
+        dialog.setTip("切换内置字x幕");
         dialog.setAdapter(new SelectDialogAdapter.SelectDialogInterface<TrackInfoBean>() {
             @Override
             public void click(TrackInfoBean value, int pos) {
@@ -440,7 +440,7 @@ public class PlayActivity extends BaseActivity {
 
                     dialog.dismiss();
                 } catch (Exception e) {
-                    LOG.e("切换内置字幕出错");
+                    LOG.e("切换内置字x幕出错");
                 }
             }
 
