@@ -1,5 +1,5 @@
 function search() {
-    doAction('searchf', { word: $('#search_key_word').val() });
+    doAction('search', { word: $('#search_key_word').val() });
 }
 
 function api() {
