@@ -519,7 +519,7 @@ public class VodController extends BaseController {
                 mPlayerIJKBtn.requestFocusFromTouch();
             }
         });
-//        增加播放页面片头片尾时间重置
+//        增加播放页面片x头片x尾时间重置
         mPlayerTimeResetBtn.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
