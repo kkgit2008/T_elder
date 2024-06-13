@@ -52,7 +52,7 @@
                     android:focusable="false"
                     android:focusableInTouchMode="false"
                     android:gravity="center"
-                    android:text="历史"
+                    android:text="历史纪录"
                     android:textAlignment="gravity"
                     android:textColor="@color/color_CCFFFFFF"
                     android:textSize="@dimen/ts_40" />
@@ -91,7 +91,7 @@
                     android:focusable="false"
                     android:focusableInTouchMode="false"
                     android:gravity="center"
-                    android:text="直播"
+                    android:text="有线电视"
                     android:textAlignment="gravity"
                     android:textColor="@color/color_CCFFFFFF"
                     android:textSize="@dimen/ts_40" />
@@ -130,7 +130,7 @@
                     android:focusable="false"
                     android:focusableInTouchMode="false"
                     android:gravity="center"
-                    android:text="搜索"
+                    android:text="输入剧名搜索"
                     android:textAlignment="gravity"
                     android:textColor="@color/color_CCFFFFFF"
                     android:textSize="@dimen/ts_40" />
@@ -162,18 +162,7 @@
                     android:alpha="0.75"
                     android:src="@drawable/icon_push" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginLeft="@dimen/vs_10"
-                    android:focusable="false"
-                    android:focusableInTouchMode="false"
-                    android:gravity="center"
-                    android:text="推送"
-                    android:textAlignment="gravity"
-                    android:textColor="@color/color_CCFFFFFF"
-                    android:textSize="@dimen/ts_40" />
+                
 
             </LinearLayout>
 
@@ -201,18 +190,7 @@
                     android:alpha="0.75"
                     android:src="@drawable/icon_collect" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginLeft="@dimen/vs_10"
-                    android:focusable="false"
-                    android:focusableInTouchMode="false"
-                    android:gravity="center"
-                    android:text="收藏"
-                    android:textAlignment="gravity"
-                    android:textColor="@color/color_CCFFFFFF"
-                    android:textSize="@dimen/ts_40" />
+                
 
             </LinearLayout>
 
@@ -250,7 +228,7 @@
                     android:focusable="false"
                     android:focusableInTouchMode="false"
                     android:gravity="center"
-                    android:text="设置"
+                    android:text="别点我"
                     android:textAlignment="gravity"
                     android:textColor="@color/color_CCFFFFFF"
                     android:textSize="@dimen/ts_40" />
