@@ -281,14 +281,14 @@ public class DetailActivity extends BaseActivity {
             @Override
             public void onClick(View v) {
                 String text = tvCollect.getText().toString();
-                if ("加入收藏".equals(text)) {
+                if ("加入收x藏".equals(text)) {
                     RoomDataManger.insertVodCollect(sourceKey, vodInfo);
-                    Toast.makeText(DetailActivity.this, "已加入收藏夹", Toast.LENGTH_SHORT).show();
-                    tvCollect.setText("取消收藏");
+                    Toast.makeText(DetailActivity.this, "已加入收x藏夹", Toast.LENGTH_SHORT).show();
+                    tvCollect.setText("取消收x藏");
                 } else {
                     RoomDataManger.deleteVodCollect(sourceKey, vodInfo);
-                    Toast.makeText(DetailActivity.this, "已移除收藏夹", Toast.LENGTH_SHORT).show();
-                    tvCollect.setText("加入收藏");
+                    Toast.makeText(DetailActivity.this, "已移除收x藏夹", Toast.LENGTH_SHORT).show();
+                    tvCollect.setText("加入收x藏");
                 }
             }
         });
@@ -731,9 +731,9 @@ public class DetailActivity extends BaseActivity {
             sourceViewModel.getDetail(sourceKey, vodId);
             boolean isVodCollect = RoomDataManger.isVodCollect(sourceKey, vodId);
             if (isVodCollect) {
-                tvCollect.setText("取消收藏");
+                tvCollect.setText("取消收x藏");
             } else {
-                tvCollect.setText("加入收藏");
+                tvCollect.setText("加入收x藏");
             }
         }
     }
