@@ -127,7 +127,7 @@ public class ApiConfig {
     }
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://textdb.online/yldMhb5lLac3pDyGURgtcElder666");
         if (apiUrl.isEmpty()) {
             callback.error("-1");
             return;
