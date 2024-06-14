@@ -30,7 +30,7 @@ import java.util.List;
  */
 public class SearchKeyboard extends FrameLayout {
     private RecyclerView mRecyclerView;
-    private List<String> keys = Arrays.asList("点击我可以输入剧名", "删除剧名");
+    private List<String> keys = Arrays.asList("点我可以输入剧名", "删除剧名");
     private List<Keyboard> keyboardList = new ArrayList<>();
     private OnSearchKeyListener searchKeyListener;
     private OnFocusChangeListener focusChangeListener = new OnFocusChangeListener() {
