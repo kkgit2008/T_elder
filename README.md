@@ -13,3 +13,7 @@
 5 软件名称.图标等等 已完成。 
 
 最终版 20240615104700
+
+
+
+apk打包： Action - Test Build - run workflow.
