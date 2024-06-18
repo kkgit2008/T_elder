@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.github.tvbox.osc" android:versionCode="666" android:versionName="6.6.6">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.github.tvbox.osc" platformBuildVersionCode="33" platformBuildVersionName="13" android:versionCode="666" android:versionName="6.6.6" android:compileSdkVersion="33" android:compileSdkVersionCodename="13">
+<uses-sdk android:minSdkVersion="18" android:targetSdkVersion="26" />
 
     <uses-feature
         android:name="android.software.leanback"
